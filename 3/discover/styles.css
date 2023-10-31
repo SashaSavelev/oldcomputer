@@ -1,0 +1,35 @@
+body {
+    background:  #2B2B2B;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_img {
+    height: 32px;
+    width: 32px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    color: white
+}

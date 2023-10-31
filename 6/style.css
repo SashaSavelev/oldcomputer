@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.pack {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.calculator {
+    width: 500px;
+    height: auto;
+    
+}
+
+.calculator__box {
+   position: relative; 
+}
+
+.number {
+    font-size: 40px;
+    width: 60px;
+    background-color: antiquewhite;
+    position: absolute;
+     top: 0;
+}
